@@ -36,6 +36,12 @@ readonly struct Point : IEquatable<Point>
     //아래는 explicit conversion을 할 경우..
     //public static explicit operator Point(Tuple<int, int> tuple) => new Point(tuple.Item1, tuple.Item2);
     //어느 conversion을 쓸지는 본인의 선택에 따라...
+
+    //GetHashCode도 override > Equals를 override하면 이것도 override할 것!
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(X, Y);
+    }
 }
 
 //연산자의 대부분은 overload가 가능하나 가능하지 않은 것들도 있음
@@ -57,3 +63,26 @@ readonly struct Point : IEquatable<Point>
 //hash function : 암호화하는 알고리즘의 하나로 어느 형태의 입력 크기가 들어가도 나오는 것은 고정된 길이의 bits로 나옴
 
 //hash code : hash function으로 어느 오브젝트의 필드의 값을 모두 hash function을 적용하여 얻은 결과
+//같은 오브젝트라면 hashcode가 같음 > 즉 hashcode 가 같으면 같은 오브젝트
+//hashset collections
+//Dictionary 데이터의 경우 대표적인 예시
+//key로 들고 있는 것들이 아주 단순한 데이터부터 클래스들에 이르기까지 다양하게 쓰일 수 있는데 처음 키, 값을 지정할 때 
+//키로 들어온 오브젝트의 hashcode를 계산함
+//매우 복잡한 오브젝트를 숫자 형태로 변환() > 이유는 ?? 단순한 숫자로 처리하면 검색 등에서 매우 빠름
+//아주 드물게도 다른 오브젝트인데도 hash code의 값이 같은 경우가 발생할 수도 있음 : hash code conflict
+//원칙적으로는 서로 다른 오브젝트는 hash code 값이 달라야 하지만 드물게도 (경우의 수 자체가 매우 많긴 하지만 드문 확률로 중복이 발생할 수도 있음) 겹칠 수도 있음
+//매우 많은 오브젝트를 갖고 있으면 그 중엔 같은 hash code를 갖는 것들이 섞여있을 수도 있음
+
+//GetHashCode : C# 내부적으로 가진 기본 함수로는 value type, reference type별로 다르게 계산되는데
+//reference type은 reference 자체를 계산하게 되고
+//value type은 해당 value들을 모아 계산하게 됨
+
+//GetHashCode 메소드를 override해야 할 경우
+//Equals메서드를 override한 경우 : 같은 오브젝트는 hash code도 같아야 함!
+//hashed collection에 키로 쓰일 타입을 쓸 경우
+//struct의 경우 기본의 경우 conflict 리스크가 있고, 느리므로 override하는 것이 좋음
+
+//GetHashCode 메소드를 덮어씌우기
+//HashCode.Combine 함수 확인하기
+
+//기본적으로 GetHashCode는 integer를 반환하는 함수이므로 오브젝트마다 다른 int 값을 가진 것을 돌려주게 하면 됨!
