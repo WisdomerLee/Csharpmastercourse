@@ -109,8 +109,8 @@ var dictionary = new Dictionary<string, int>
     ["aaa"] = 1,
 };
 var readonlyDictionary = new System.Collections.ObjectModel.ReadOnlyDictionary<string, int>(dictionary);
-readonlyDictionary.Clear();
-readonlyDictionary["aaa"] = 2;
+//readonlyDictionary.Clear();
+//readonlyDictionary["aaa"] = 2;
 //읽기, 지우기, 등의 행동 자체가 막힘!!!
 
 
