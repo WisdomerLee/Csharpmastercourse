@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "x3nEqBW7j22Hkh4IxhLbGuApClWFjUCzSHDemW1565/5FtgUwH9zN3abmavBlkFYI5DSE+quvNO+U/jLaQ4dVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\secrettown\\source\\repos\\CsharpMasterClass\\StringAdvancedExecute\\StringAdvancedExecute.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\secrettown\\.nuget\\packages\\pdfpig\\0.1.8\\pdfpig.0.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
