@@ -1,0 +1,14 @@
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\bin\Release\net7.0\EventConnection.exe
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\bin\Release\net7.0\EventConnection.deps.json
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\bin\Release\net7.0\EventConnection.runtimeconfig.json
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\bin\Release\net7.0\EventConnection.dll
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\bin\Release\net7.0\EventConnection.pdb
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\obj\Release\net7.0\EventConnection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\obj\Release\net7.0\EventConnection.AssemblyInfoInputs.cache
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\obj\Release\net7.0\EventConnection.AssemblyInfo.cs
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\obj\Release\net7.0\EventConnection.csproj.CoreCompileInputs.cache
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\obj\Release\net7.0\EventConnection.dll
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\obj\Release\net7.0\refint\EventConnection.dll
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\obj\Release\net7.0\EventConnection.pdb
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\obj\Release\net7.0\EventConnection.genruntimeconfig.cache
+C:\Users\secrettown\source\repos\CsharpMasterClass\EventConnection\obj\Release\net7.0\ref\EventConnection.dll

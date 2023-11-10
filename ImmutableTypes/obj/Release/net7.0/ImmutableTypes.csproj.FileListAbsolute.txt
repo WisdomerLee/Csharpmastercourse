@@ -1,0 +1,4 @@
+C:\Users\secrettown\source\repos\CsharpMasterClass\ImmutableTypes\obj\Release\net7.0\ImmutableTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\secrettown\source\repos\CsharpMasterClass\ImmutableTypes\obj\Release\net7.0\ImmutableTypes.AssemblyInfoInputs.cache
+C:\Users\secrettown\source\repos\CsharpMasterClass\ImmutableTypes\obj\Release\net7.0\ImmutableTypes.AssemblyInfo.cs
+C:\Users\secrettown\source\repos\CsharpMasterClass\ImmutableTypes\obj\Release\net7.0\ImmutableTypes.csproj.CoreCompileInputs.cache
