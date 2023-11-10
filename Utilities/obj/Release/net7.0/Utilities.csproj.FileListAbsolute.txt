@@ -1,0 +1,11 @@
+C:\Users\secrettown\source\repos\CsharpMasterClass\Utilities\bin\Release\net7.0\Utilities.deps.json
+C:\Users\secrettown\source\repos\CsharpMasterClass\Utilities\bin\Release\net7.0\Utilities.dll
+C:\Users\secrettown\source\repos\CsharpMasterClass\Utilities\bin\Release\net7.0\Utilities.pdb
+C:\Users\secrettown\source\repos\CsharpMasterClass\Utilities\obj\Release\net7.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\secrettown\source\repos\CsharpMasterClass\Utilities\obj\Release\net7.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\secrettown\source\repos\CsharpMasterClass\Utilities\obj\Release\net7.0\Utilities.AssemblyInfo.cs
+C:\Users\secrettown\source\repos\CsharpMasterClass\Utilities\obj\Release\net7.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\secrettown\source\repos\CsharpMasterClass\Utilities\obj\Release\net7.0\Utilities.dll
+C:\Users\secrettown\source\repos\CsharpMasterClass\Utilities\obj\Release\net7.0\refint\Utilities.dll
+C:\Users\secrettown\source\repos\CsharpMasterClass\Utilities\obj\Release\net7.0\Utilities.pdb
+C:\Users\secrettown\source\repos\CsharpMasterClass\Utilities\obj\Release\net7.0\ref\Utilities.dll
